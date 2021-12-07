@@ -20,7 +20,7 @@ def main():
 
 
     for layer in pre_trained_model.layers:
-    layer.trainable = False
+        layer.trainable = False
   
     # pre_trained_model.summary()
 
