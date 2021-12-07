@@ -59,7 +59,7 @@ def main():
     model_inceptionv3.compile(optimizer = 'adam', 
               loss = 'categorical_crossentropy', 
               metrics = ['accuracy'])
-    model_inception.load_weights('model_inceptionv3_weights.h5')
+    model_inceptionv3.load_weights('model_inceptionv3_weights.h5')
 
     def predict_image(image_upload, model = model_inceptionv3):
         im = Image.open(image_upload)
