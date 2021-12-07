@@ -11,7 +11,7 @@ import seaborn as sns
 import urllib.request
 from urllib.request import urlopen
 
-
+def main():
     # importing tensorflow model
     from tensorflow.keras.applications.inception_v3 import InceptionV3
     tf.keras.backend.clear_session()
@@ -133,3 +133,6 @@ from urllib.request import urlopen
                     ha="center") 
 
             st.pyplot(fig)
+          
+if __name__ == '__main__':
+    main()
