@@ -1,4 +1,4 @@
-streamlit==0.72.0
+streamlit
 tensorflow
 keras
 seaborn
