@@ -73,7 +73,7 @@ def predict_image(image_upload, model = model_inceptionv3):
     mainecoon_prob = predict_array[2]
     ragdoll_prob = predict_array[3]
     scottishfold_prob = predict_array[4]
-    sphinx_prob = predict_array[5]
+    sphynx_prob = predict_array[5]
 
     s = [americanshorthair_prob, bengal_prob, mainecoon_prob, ragdoll_prob, scottishfold_prob, sphynx_prob]
 
@@ -105,7 +105,7 @@ def predict_image(image_upload, model = model_inceptionv3):
    
 st.title('Welcome to the Cat Breed Image Clasification Project')
 st.markdown('This is a web application of deep learning model which has been trained to classify \
-            six cat breed (American Shorthair, Bengal, Maine Coon, Ragdoll, Scottish Fold, Sphinx) based on their images.')
+            six cat breed (American Shorthair, Bengal, Maine Coon, Ragdoll, Scottish Fold, Sphynx) based on their images.')
 st.markdown("Paste a link to an image and the deployed deep learning model will classify it.")
 st.markdown("The linked image should be in 'jpg', 'jpeg', or 'png' format.")
 st.markdown("Tips: right click on an image and choose 'Copy Image Link'.")
