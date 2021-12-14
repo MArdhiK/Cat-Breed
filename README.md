@@ -13,3 +13,5 @@ My aim in this project is to classify these 6 cat breed :
 6. Sphinx
 
 With this model I can achieved 88,67% accuracy on training set, and 91,67% accuracy on validation set
+
+Here's the web application of this model https://share.streamlit.io/mardhik/cat-breed/catbreed.py
