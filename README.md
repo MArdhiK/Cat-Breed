@@ -15,3 +15,7 @@ My aim in this project is to classify these 6 cat breed :
 With this model I can achieve 88,67% accuracy on training set, and 91,67% accuracy on validation set
 
 Here's the web application of this model https://share.streamlit.io/mardhik/cat-breed/catbreed.py
+
+#### A Glimpse of the Web
+
+<img src=images/1. interface.png width=500>     <img src=images/2. output.png width=500>
