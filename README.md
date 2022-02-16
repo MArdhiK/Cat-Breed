@@ -18,4 +18,5 @@ Here's the web application of this model https://share.streamlit.io/mardhik/cat-
 
 #### A Glimpse of the Web
 
-<img src=images/1. interface.png width=500>     <img src=images/2. output.png width=500>
+<img src=images/1.interface.png width=500>     <img src=images/2.output.png width=500>
+Just enter the image link, and it will show the probabilty of the images between 6 cats
