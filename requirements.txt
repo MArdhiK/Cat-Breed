@@ -2,3 +2,4 @@ streamlit
 tensorflow
 seaborn
 keras
+click==8.0.4
